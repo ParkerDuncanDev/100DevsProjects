@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: rgb(97, 64, 120);
+  }
+  body {
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(24, 24, 24);
+    ;
+  }
+  #setup{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    ;
+  }
+  .box{
+    border: 1px solid black;
+    background-color: rgb(63, 20, 78);
+    display: grid;
+    place-items: center;
+  }
+  #gamespace{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly
+  
+  }
+  #board{
+    box-sizing:border-box;
+    width: 25rem;
+    height: 25rem;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    justify-content: center;
+    align-content: center;
+  }
+  .taken{
+    border: 1px solid black;
+    background-color: rgb(118, 59, 218);
+    display: grid;
+    place-items: center;
+  }
+  input{
+    width: 25%;
+    font-size: large;
+  }
+  button#playerinfosubmit{
+    width: 50%;
+    font-size: larger;
+  }
+  .hidden{
+    display: none !important;
+  }
